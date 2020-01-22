@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Alex's Scenes/Main Menu.unity
     guid: a7a9829d761bf7e4f9760539bbf167b9
+  - enabled: 1
+    path: Assets/Alex's Scenes/Level1.unity
+    guid: 8a293e4b95d881b4e9d699c9cb094771
   m_configObjects: {}
