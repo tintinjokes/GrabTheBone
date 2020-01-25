@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Alex's Scenes/LevelSelection.unity
+- path: Assets/Alex/Alex's Scenes/Level1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
