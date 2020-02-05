@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AudioManager : MonoBehaviour
+public class AudioManagerTin : MonoBehaviour
 {
     public static AudioManager instance;
 
