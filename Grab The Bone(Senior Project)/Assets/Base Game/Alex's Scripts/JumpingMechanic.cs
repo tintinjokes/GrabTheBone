@@ -44,7 +44,9 @@ public class JumpingMechanic : MonoBehaviour
         {
             rb.AddForce(Vector2.up * jumpForce);
             jumpMade = false;
+            /*
             AudioManager.instance.PlaySFX(1);
+            */
         }
     }
 }
