@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
-    public bool isPaused = false;
+    public bool isPaused;
 
     public GameObject Pause;
 
@@ -17,6 +17,12 @@ public class PauseMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+     
+
+    }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
         if (isPaused)                    //If/Else statements determine if the game paused or not and determines a reaction time for each one
         {
             Pause.SetActive(true);
@@ -27,13 +33,11 @@ public class PauseMenu : MonoBehaviour
             Pause.SetActive(false);
             Time.timeScale = 1f;
         }
-
-        if (Input.GetKeyDown(KeyCode.Escape)) //Calls the bool isPaused
+        if (collision.gameObject.tag.Equals("Tutorial")) //Calls the bool isPaused
         {
 
             isPaused = !isPaused;
         }
-
     }
 
     public void Continue() //Closes the pause menu and unfreezes time after being clicked.
@@ -43,17 +47,4 @@ public class PauseMenu : MonoBehaviour
         isPaused = false;
     }
 
-    
-
-    public void Restart() //Restarts the scene 
-    {
-        Scene SampleScene;
-        SampleScene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(SampleScene.name);
-    }
-
-    public void MainMenu(string MainMenu) // Main Menu button in the pause menue that calls the level as a string and loads the scene.
-    {
-        Application.LoadLevel(MainMenu);
-    }
 }

@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - Steak
+  - Enemy
+  - Big Bone
+  - RegularBone
+  - BigBone
+  - FinishBone
+  - Tutorial
   layers:
   - Default
   - TransparentFX
@@ -13,8 +21,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Background
+  - LevelDesign
   - 
   - 
   - 
@@ -38,6 +46,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 1936273759
+    locked: 0
+  - name: LevelDesign
+    uniqueID: 1555264451
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

@@ -27,7 +27,7 @@ public class player_movement : MonoBehaviour
     {
         transform.Translate(Vector2.right * speed * Time.deltaTime);
 
-        if(Input.GetKeyDown(KeyCode.Space) && jump == true)
+        if(Input.GetButtonDown("Fire1") && jump == true)
         {
             jumping();
         }
@@ -50,21 +50,23 @@ public class player_movement : MonoBehaviour
         // change to kill the player, pop up game over screen with score and options
         if(collision.gameObject.tag.Equals("Enemy"))
         {
-            SceneManager.LoadScene("TestLevel");
+            SceneManager.LoadScene("Level01");
         }
+
+      
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag.Equals("Small Bone"))
+        if(collision.gameObject.tag.Equals("RegularBone"))
         {
-            score = score + 1;
+            score = score + 5;
             Debug.Log(score);
         }
 
-        if (collision.gameObject.tag.Equals("Big Bone"))
+        if (collision.gameObject.tag.Equals("BigBone"))
         {
-            score = score + 3;
+            score = score + 10;
             Debug.Log(score);
         }
 
@@ -72,5 +74,11 @@ public class player_movement : MonoBehaviour
         {
             speed = speed + speedboost;
         }
+
+        if (collision.gameObject.tag.Equals("FinishBone")) //Temporary, gonna put a pop up menu later on
+        {
+            SceneManager.LoadScene("Level01");
+        }
+
     }
 }
