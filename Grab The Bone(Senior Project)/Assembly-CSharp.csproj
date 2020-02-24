@@ -73,8 +73,12 @@
     <Compile Include="Assets\Base Game\Scripts\collectable_Script.cs" />
     <Compile Include="Assets\Base Game\Scripts\player_movement.cs" />
     <Compile Include="Assets\Tintin\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Tintin\Scripts\Enemy.cs" />
     <Compile Include="Assets\Tintin\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Tintin\Scripts\Obstacle.cs" />
+    <Compile Include="Assets\Tintin\Scripts\Shooting.cs" />
     <Compile Include="Assets\Tintin\Scripts\Sound.cs" />
+    <Compile Include="Assets\Tintin\Scripts\TennisBall.cs" />
     <None Include="Assets\Base Game\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\Base Game\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Base Game\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
