@@ -32,7 +32,7 @@ public class player_movement : MonoBehaviour
     {
         transform.Translate(Vector2.right * speed * Time.deltaTime);
 
-        if(Input.GetButtonDown("Fire1") && jump == true)
+        if(Input.GetButtonDown("Fire2") && jump == true)
         {
             jumping();
             animator.SetBool("IsJumping", true);
