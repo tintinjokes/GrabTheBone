@@ -19,27 +19,26 @@ public class Score_Script : MonoBehaviour
 
     void Update()
     {
-        scoreText.text = "Score: " + scoreText;
+        //scoreText.text = scorecount.ToString();
     }
 
     //Still a work in progross
     
-    /*
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag.Equals("Small Bone"))
+        if (collision.gameObject.tag.Equals("Player"))
         {
-            scoreText = scoreText + 5;
-            Debug.Log(score);
+            scorecount += 5;
+            Debug.Log(scorecount);
         }
 
-        if (collision.gameObject.tag.Equals("Big Bone"))
+        if (collision.gameObject.tag.Equals("Player"))
         {
-            score = score + 10;
-            Debug.Log(score);
+            scorecount += 10;
+            Debug.Log(scorecount);
         }
 
     }
-    */
     
 }

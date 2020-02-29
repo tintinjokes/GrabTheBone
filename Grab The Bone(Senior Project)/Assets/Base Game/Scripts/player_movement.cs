@@ -15,9 +15,9 @@ public class player_movement : MonoBehaviour
     public float jumpforce;
     public bool jump = true;
     public float speedboost;
-    private TextMeshProUGUI scoreCounterText;
+    public TextMeshProUGUI scoreCounterText;
     public int score = 0;
-    //public static AudioManager instance;
+    [SerializeField]
 
     // Start is called before the first frame update
     void Start()
@@ -28,8 +28,14 @@ public class player_movement : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
+    void Update()
+    {
+      
+    }
+
     private void FixedUpdate()
     {
+
         transform.Translate(Vector2.right * speed * Time.deltaTime);
 
         if(Input.GetButtonDown("Fire2") && jump == true)
@@ -37,7 +43,7 @@ public class player_movement : MonoBehaviour
             jumping();
             animator.SetBool("IsJumping", true);
             animator.SetBool("IsRunning", false);
-            
+            FindObjectOfType<AudioManager>().Play("Jump5");
         }
 
     }
@@ -55,6 +61,7 @@ public class player_movement : MonoBehaviour
             jump = true;
             animator.SetBool("IsJumping", false);
             animator.SetBool("IsRunning", true);
+         
 
         }
 
@@ -68,29 +75,34 @@ public class player_movement : MonoBehaviour
       
     }
 
+    //Comeback to update SCORE:0
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        
         if(collision.gameObject.tag.Equals("RegularBone"))
-        {
+        {        
             score = score + 5;
             Debug.Log(score);
+            FindObjectOfType<AudioManager>().Play("nice Bite Sound Effect");
         }
 
         if (collision.gameObject.tag.Equals("BigBone"))
         {
             score = score + 10;
             Debug.Log(score);
+            FindObjectOfType<AudioManager>().Play("nice Bite Sound Effect");
         }
 
         if (collision.gameObject.tag.Equals("Steak"))
         {
             speed = speed + speedboost;
+            FindObjectOfType<AudioManager>().Play("Eat Munch 2 Sound Effect (download)");
         }
 
         if (collision.gameObject.tag.Equals("FinishBone")) //Temporary, gonna put a pop up menu later on
         {
             SceneManager.LoadScene("Level01");
         }
-
+        
     }
 }
