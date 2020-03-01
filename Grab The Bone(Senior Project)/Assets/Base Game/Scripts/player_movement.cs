@@ -15,23 +15,20 @@ public class player_movement : MonoBehaviour
     public float jumpforce;
     public bool jump = true;
     public float speedboost;
-    public TextMeshProUGUI scoreCounterText;
-    public int score = 0;
+    //public TextMeshProUGUI scoreCounterText;
+    //public int score = 0;
     [SerializeField]
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        scoreCounterText = GetComponent<TextMeshProUGUI>();
-        Debug.Log(score);
+       // scoreCounterText = GetComponent<TextMeshProUGUI>();
+       // Debug.Log(score);
         animator = GetComponent<Animator>();
     }
 
-    void Update()
-    {
-      
-    }
+ 
 
     private void FixedUpdate()
     {
@@ -80,16 +77,14 @@ public class player_movement : MonoBehaviour
     {
         
         if(collision.gameObject.tag.Equals("RegularBone"))
-        {        
-            score = score + 5;
-            Debug.Log(score);
+        {
+            Score_Script.scorecount += 5;
             FindObjectOfType<AudioManager>().Play("nice Bite Sound Effect");
         }
 
         if (collision.gameObject.tag.Equals("BigBone"))
         {
-            score = score + 10;
-            Debug.Log(score);
+            Score_Script.scorecount += 10;
             FindObjectOfType<AudioManager>().Play("nice Bite Sound Effect");
         }
 
