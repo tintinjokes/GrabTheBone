@@ -30,26 +30,30 @@ public class player_movement : MonoBehaviour
 
  
 
-    private void FixedUpdate()
+    private void Update()
     {
-
         transform.Translate(Vector2.right * speed * Time.deltaTime);
 
-        if(Input.GetButtonDown("Fire2") && jump == true)
+        if (Input.GetMouseButtonDown(0))
         {
-            jumping();
-            animator.SetBool("IsJumping", true);
-            animator.SetBool("IsRunning", false);
-            FindObjectOfType<AudioManager>().Play("Jump5");
-        }
+            //jumping();
+            if (jump == true)
+            {
+                rb.AddForce(transform.up * jumpforce, ForceMode2D.Impulse);
+                jump = false;
 
+                animator.SetBool("IsJumping", true);
+                animator.SetBool("IsRunning", false);
+                FindObjectOfType<AudioManager>().Play("Jump5");
+            }
+        }
     }
 
-    void jumping()
+    /*void jumping()
     {
                 rb.AddForce(transform.up * jumpforce, ForceMode2D.Impulse);
                 jump = false;
-    }
+    }*/
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -58,8 +62,6 @@ public class player_movement : MonoBehaviour
             jump = true;
             animator.SetBool("IsJumping", false);
             animator.SetBool("IsRunning", true);
-         
-
         }
 
 
@@ -68,8 +70,6 @@ public class player_movement : MonoBehaviour
         {
             SceneManager.LoadScene("Level01");
         }
-
-      
     }
 
     //Comeback to update SCORE:0
