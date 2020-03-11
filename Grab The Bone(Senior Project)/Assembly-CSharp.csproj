@@ -62,15 +62,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Base Game\Alex's Scripts\Credits.cs" />
-    <Compile Include="Assets\Base Game\Alex's Scripts\GameManager.cs" />
-    <Compile Include="Assets\Base Game\Alex's Scripts\JumpingMechanic.cs" />
-    <Compile Include="Assets\Base Game\Alex's Scripts\PauseMenu.cs" />
-    <Compile Include="Assets\Base Game\Alex's Scripts\Spawner.cs" />
-    <Compile Include="Assets\Base Game\Scripts\Scene_Script.cs" />
+    <Compile Include="Assets\Alex's Files\Alex's Scripts\Credits.cs" />
+    <Compile Include="Assets\Alex's Files\Alex's Scripts\GameManager.cs" />
+    <Compile Include="Assets\Alex's Files\Alex's Scripts\JumpingMechanic.cs" />
+    <Compile Include="Assets\Alex's Files\Alex's Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\Alex's Files\Alex's Scripts\Spawner.cs" />
     <Compile Include="Assets\Base Game\Scripts\Score_Script.cs" />
     <Compile Include="Assets\Base Game\Scripts\collectable_Script.cs" />
     <Compile Include="Assets\Base Game\Scripts\player_movement.cs" />
+    <Compile Include="Assets\Robert's Files\Scripts\Camera_move.cs" />
     <Compile Include="Assets\Tintin\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Tintin\Scripts\Enemy.cs" />
     <Compile Include="Assets\Tintin\Scripts\MainMenu.cs" />
@@ -80,6 +80,7 @@
     <Compile Include="Assets\Tintin\Scripts\TennisBall.cs" />
     <None Include="Assets\Base Game\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\Base Game\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Robert's Files\Textures\Shaders\Blur.shader" />
     <None Include="Assets\Base Game\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Base Game\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Base Game\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
@@ -305,6 +306,12 @@
     </Reference>
     <Reference Include="UnityEngine.XRModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f5/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f5/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f5/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

@@ -94,8 +94,9 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
-    m_ShowResolutionOverlay: 1
     m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -359,11 +360,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6765657938923537134, guid: b8464b4d3e4ee4a478c3896853e6e90e,
-        type: 3}
-      propertyPath: m_Name
-      value: Puddle
-      objectReference: {fileID: 0}
     - target: {fileID: 4914368292617138071, guid: b8464b4d3e4ee4a478c3896853e6e90e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -418,6 +414,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765657938923537134, guid: b8464b4d3e4ee4a478c3896853e6e90e,
+        type: 3}
+      propertyPath: m_Name
+      value: Puddle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8464b4d3e4ee4a478c3896853e6e90e, type: 3}
@@ -537,12 +538,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5, y: 4.8}
   m_EdgeRadius: 0
---- !u!1 &1030876972 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7107295600532739489, guid: 63bf4d3f6cba2084da40b08639e95899,
-    type: 3}
-  m_PrefabInstance: {fileID: 7107295599398742518}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1136135470
 GameObject:
   m_ObjectHideFlags: 0
@@ -571,7 +566,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1136135470}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
@@ -588,7 +583,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1136135470}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_UiScaleMode: 1
@@ -814,8 +809,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: 'Score: 0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -928,7 +921,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cae1bc8f04784634f928575beae2b9ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerscore: {fileID: 1030876972}
 --- !u!1 &1815598496
 GameObject:
   m_ObjectHideFlags: 0
@@ -961,6 +953,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -972,6 +965,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -1066,6 +1060,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1077,6 +1072,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -1153,11 +1149,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 9168148128194947601, guid: 5fa1f790cadd0dc4fa60fd7c83d36137,
-        type: 3}
-      propertyPath: m_Name
-      value: Spikes
-      objectReference: {fileID: 0}
     - target: {fileID: 1658418508975638811, guid: 5fa1f790cadd0dc4fa60fd7c83d36137,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1213,6 +1204,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9168148128194947601, guid: 5fa1f790cadd0dc4fa60fd7c83d36137,
+        type: 3}
+      propertyPath: m_Name
+      value: Spikes
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5fa1f790cadd0dc4fa60fd7c83d36137, type: 3}
 --- !u!1001 &4499481049194429471
@@ -1222,11 +1218,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4125241949094827004, guid: 62b6009658ad22f47abafd1c527a40df,
-        type: 3}
-      propertyPath: m_Name
-      value: Platform
-      objectReference: {fileID: 0}
     - target: {fileID: 2540232024129100349, guid: 62b6009658ad22f47abafd1c527a40df,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1281,6 +1272,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125241949094827004, guid: 62b6009658ad22f47abafd1c527a40df,
+        type: 3}
+      propertyPath: m_Name
+      value: Platform
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62b6009658ad22f47abafd1c527a40df, type: 3}
@@ -1444,11 +1440,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1219374559617649111, guid: d1df0a99dd031df4fbea77b5e4db29dc,
-        type: 3}
-      propertyPath: m_Name
-      value: Bone_Collectable
-      objectReference: {fileID: 0}
     - target: {fileID: 1219374559617649107, guid: d1df0a99dd031df4fbea77b5e4db29dc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1504,6 +1495,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1219374559617649111, guid: d1df0a99dd031df4fbea77b5e4db29dc,
+        type: 3}
+      propertyPath: m_Name
+      value: Bone_Collectable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1df0a99dd031df4fbea77b5e4db29dc, type: 3}
 --- !u!1001 &8227392859583025228
@@ -1513,11 +1509,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8227392859998844847, guid: 482403dc126a25a489ca8971fc1c9a91,
-        type: 3}
-      propertyPath: m_Name
-      value: BigBone
-      objectReference: {fileID: 0}
     - target: {fileID: 8227392859998844843, guid: 482403dc126a25a489ca8971fc1c9a91,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1572,6 +1563,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8227392859998844847, guid: 482403dc126a25a489ca8971fc1c9a91,
+        type: 3}
+      propertyPath: m_Name
+      value: BigBone
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 482403dc126a25a489ca8971fc1c9a91, type: 3}
