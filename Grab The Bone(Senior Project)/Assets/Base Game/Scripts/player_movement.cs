@@ -15,16 +15,12 @@ public class player_movement : MonoBehaviour
     public float jumpforce;
     public bool jump = true;
     public float speedboost;
-    //public TextMeshProUGUI scoreCounterText;
-    //public int score = 0;
     [SerializeField]
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-       // scoreCounterText = GetComponent<TextMeshProUGUI>();
-       // Debug.Log(score);
         animator = GetComponent<Animator>();
     }
 
@@ -69,6 +65,7 @@ public class player_movement : MonoBehaviour
         if(collision.gameObject.tag.Equals("Enemy"))
         {
             SceneManager.LoadScene("Level01");
+            Score_Script.scorecount = 0;
         }
     }
 
@@ -94,10 +91,13 @@ public class player_movement : MonoBehaviour
             FindObjectOfType<AudioManager>().Play("Eat Munch 2 Sound Effect (download)");
         }
 
+
+        
         if (collision.gameObject.tag.Equals("FinishBone")) //Temporary, gonna put a pop up menu later on
         {
-            SceneManager.LoadScene("Level01");
+            Score_Script.scorecount += Score_Script.highscore;
         }
+        
         
     }
 }

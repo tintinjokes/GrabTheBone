@@ -29,7 +29,13 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
     }
 
-    public void QuitApplication()
+    public void Restart() 
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+
+        public void QuitApplication()
     {
         #if UNITY_EDITOR
             UnityEditor.EditorApplication.isPlaying = false;
