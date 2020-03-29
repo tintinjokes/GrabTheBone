@@ -67,6 +67,13 @@ public class player_movement : MonoBehaviour
             SceneManager.LoadScene("Level01");
             Score_Script.scorecount = 0;
         }
+
+        if (collision.gameObject.tag.Equals("Enemy2"))
+        {
+            SceneManager.LoadScene("Level02");
+            Score_Script.scorecount = 0;
+        }
+
     }
 
     //Comeback to update SCORE:0
@@ -93,11 +100,15 @@ public class player_movement : MonoBehaviour
 
 
         
-        if (collision.gameObject.tag.Equals("FinishBone")) //Temporary, gonna put a pop up menu later on
+        if (collision.gameObject.tag.Equals("FinishBone")) 
         {
             Score_Script.scorecount += Score_Script.highscore;
         }
-        
-        
+
+        if (collision.gameObject.tag.Equals("FinishBone2"))
+        {
+            Score_Script.scorecount += Score_Script.highscore;
+        }
+
     }
 }

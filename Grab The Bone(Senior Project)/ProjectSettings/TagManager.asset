@@ -12,6 +12,9 @@ TagManager:
   - BigBone
   - FinishBone
   - Tutorial
+  - Small Bone
+  - Enemy2
+  - FinishBone2
   layers:
   - Default
   - TransparentFX
