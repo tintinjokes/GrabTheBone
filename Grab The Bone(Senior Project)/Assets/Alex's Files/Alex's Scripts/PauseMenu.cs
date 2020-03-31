@@ -47,6 +47,22 @@ public class PauseMenu : MonoBehaviour
         isPaused = false;
     }
 
+    public void OnPause()
+    {
+        if (isPaused)                    //If/Else statements determine if the game paused or not and determines a reaction time for each one
+        {
+            Pause.SetActive(true);
+            Time.timeScale = 0f;
+        }
+        else
+        {
+            Pause.SetActive(false);
+            Time.timeScale = 1f;
+        }
+        
+            isPaused = !isPaused;
+        
+    }
    
 
 }
