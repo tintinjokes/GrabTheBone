@@ -45,11 +45,7 @@ public class player_movement : MonoBehaviour
         }
     }
 
-    /*void jumping()
-    {
-                rb.AddForce(transform.up * jumpforce, ForceMode2D.Impulse);
-                jump = false;
-    }*/
+   
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

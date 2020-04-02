@@ -59,8 +59,9 @@ public class PauseMenu : MonoBehaviour
             Pause.SetActive(false);
             Time.timeScale = 1f;
         }
-        
-            isPaused = !isPaused;
+        isPaused = !isPaused;
+       
+
         
     }
    
