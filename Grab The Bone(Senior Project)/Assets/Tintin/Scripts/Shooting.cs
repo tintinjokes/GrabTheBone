@@ -6,16 +6,36 @@ public class Shooting : MonoBehaviour
 {
     public GameObject tennisball;
     public Transform shootpoint;
+    private int tshots;
     
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1")) { 
-            Fire();
+        if (Input.GetButtonDown("Fire1")) 
+        {
+            if (tshots != 0)
+            {
+                Fire();
+                tshots--;
+            }
+
             Debug.Log("HEY YOU PRESSED THE FIRE BUTTON");
         }
     }
 
+    void OnTriggerEnter2D(Collider2D token)
+    {
+       
+        Debug.Log(token.gameObject.name);
+        
+        if(token.gameObject.name == "TennisBallToken")
+        {
+            tshots = 5;
+            Debug.Log("Hey you found a token");
+        }
+        
+        
+    }
     void Fire()
     {
         Instantiate(tennisball, shootpoint);
