@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2428648486013393217}
   - component: {fileID: 8336463502643821532}
   - component: {fileID: 797452197984166354}
+  - component: {fileID: 2279578190061721401}
   m_Layer: 0
   m_Name: Chocolate
   m_TagString: Enemy
@@ -108,3 +109,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.40068325, y: 0.64}
   m_EdgeRadius: 0
+--- !u!114 &2279578190061721401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299723093773367883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2953c8c2d4bec2e4b9d7c39401c4b43e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
