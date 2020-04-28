@@ -16,7 +16,7 @@ public class player_movement : MonoBehaviour
     public float jumpforce;
     public bool jump = true;
     public float speedboost;
-    [SerializeField]
+    
 
     // Start is called before the first frame update
     void Start()
