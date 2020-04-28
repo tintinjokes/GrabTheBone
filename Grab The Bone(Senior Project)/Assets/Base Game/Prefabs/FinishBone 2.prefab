@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 714688721563914315}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 395.0814, y: -4.001707, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
@@ -242,7 +242,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7319343387351211973}
+      - m_Target: {fileID: 0}
         m_MethodName: Restart
         m_Mode: 1
         m_Arguments:
@@ -534,7 +534,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: LevelSelection
+          m_StringArgument: Main Menu
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6100573635707124838
@@ -878,6 +878,7 @@ GameObject:
   - component: {fileID: 3265638326420688271}
   - component: {fileID: 7619678637424226086}
   - component: {fileID: 3683267023497153983}
+  - component: {fileID: 581487965}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -933,7 +934,7 @@ MonoBehaviour:
   m_text: 'Good Boy!
 
 
-    Score:  #'
+    Score:  '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1002,7 +1003,7 @@ MonoBehaviour:
   m_margin: {x: -174.1287, y: 0, z: 140.22833, w: -155.16565}
   m_textInfo:
     textComponent: {fileID: 3683267023497153983}
-    characterCount: 20
+    characterCount: 19
     spriteCount: 0
     spaceCount: 5
     wordCount: 3
@@ -1025,3 +1026,15 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &581487965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8636862597969350952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cae1bc8f04784634f928575beae2b9ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

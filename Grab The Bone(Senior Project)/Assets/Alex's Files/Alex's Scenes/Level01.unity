@@ -929,20 +929,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 370608368}
-    - target: {fileID: 163297206247488155, guid: fda6cff3aacc2f44cad67971ee9d5d49,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ChangeScene
-      objectReference: {fileID: 0}
     - target: {fileID: 714688721563914315, guid: fda6cff3aacc2f44cad67971ee9d5d49,
         type: 3}
       propertyPath: m_Name
       value: FinishBone 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 714688721563914315, guid: fda6cff3aacc2f44cad67971ee9d5d49,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 714688721563914319, guid: fda6cff3aacc2f44cad67971ee9d5d49,
         type: 3}
@@ -999,44 +989,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3683267023497153983, guid: fda6cff3aacc2f44cad67971ee9d5d49,
-        type: 3}
-      propertyPath: m_text
-      value: 'Good Boy!
-
-
-        Score:  '
-      objectReference: {fileID: 0}
-    - target: {fileID: 3683267023497153983, guid: fda6cff3aacc2f44cad67971ee9d5d49,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 19
-      objectReference: {fileID: 0}
-    - target: {fileID: 6100573635707124838, guid: fda6cff3aacc2f44cad67971ee9d5d49,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7507175937310407809, guid: fda6cff3aacc2f44cad67971ee9d5d49,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7507175937310407809, guid: fda6cff3aacc2f44cad67971ee9d5d49,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 370608368}
-    - target: {fileID: 7507175937310407809, guid: fda6cff3aacc2f44cad67971ee9d5d49,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Restart
-      objectReference: {fileID: 0}
-    - target: {fileID: 7507175937310407809, guid: fda6cff3aacc2f44cad67971ee9d5d49,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fda6cff3aacc2f44cad67971ee9d5d49, type: 3}
 --- !u!1001 &212774100
@@ -2100,24 +2057,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 484109402}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &581487961 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8636862597969350952, guid: fda6cff3aacc2f44cad67971ee9d5d49,
-    type: 3}
-  m_PrefabInstance: {fileID: 207397993}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &581487965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 581487961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cae1bc8f04784634f928575beae2b9ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &609499419
 GameObject:
   m_ObjectHideFlags: 0
@@ -6192,6 +6131,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774708984358130021, guid: 46a59c3c772167448a3790d45773a27b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Main Menu
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46a59c3c772167448a3790d45773a27b, type: 3}
