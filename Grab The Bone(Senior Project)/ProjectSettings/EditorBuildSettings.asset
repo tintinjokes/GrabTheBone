@@ -14,7 +14,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Alex's Files/Alex's Scenes/Level02.unity
     guid: 614bea9ef04894149b2d93219c6225f4
-  - enabled: 1
-    path: Assets/Ronnie/Ronnie's Scenes/RonnieLevelSelect.unity
-    guid: e27b629d2f0a70d4c88111946eaf9957
   m_configObjects: {}

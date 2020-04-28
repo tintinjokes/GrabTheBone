@@ -13,6 +13,10 @@ public class MainMenu : MonoBehaviour
     public GameObject OptionsButtonUI;
     public GameObject StartButtonUI;
     public GameObject CreditsText;
+    //Ronnie's Code 4/27
+    public GameObject LevelSelectTitle;
+    public GameObject LevelSelect01;
+    public GameObject LevelSelect02;
     // static bool isLoaded = false;
 
                                                                                                                 // Update is called once per frame
@@ -54,6 +58,10 @@ public class MainMenu : MonoBehaviour
         CreditsUI.SetActive(true);
         BackButtonUI.SetActive(false);
         CreditsText.SetActive(false);
+        // Ronnie 4/27
+        LevelSelectTitle.SetActive(false);
+        LevelSelect01.SetActive(false);
+        LevelSelect02.SetActive(false);
     }
     private void Update()
     {
@@ -72,6 +80,10 @@ public class MainMenu : MonoBehaviour
         CreditsUI.SetActive(true);
         BackButtonUI.SetActive(false);
         CreditsText.SetActive(false);
+        // Ronnie 4/27
+        LevelSelectTitle.SetActive(false);
+        LevelSelect01.SetActive(false);
+        LevelSelect02.SetActive(false);
     }
 
     public void CreditsButton()
@@ -81,6 +93,10 @@ public class MainMenu : MonoBehaviour
         CreditsUI.SetActive(false);
         BackButtonUI.SetActive(true);
         CreditsText.SetActive(true);
+        // Ronnie 4/27
+        LevelSelectTitle.SetActive(false);
+        LevelSelect01.SetActive(false);
+        LevelSelect02.SetActive(false);
     }
     public void Options()
     {
@@ -89,6 +105,22 @@ public class MainMenu : MonoBehaviour
         CreditsUI.SetActive(false);
         BackButtonUI.SetActive(true);
         CreditsText.SetActive(false);
+        // Ronnie 4/27
+        LevelSelectTitle.SetActive(false);
+        LevelSelect01.SetActive(false);
+        LevelSelect02.SetActive(false);
+    }
+    public void LevelSelectScreen()
+    {
+        StartButtonUI.SetActive(false);
+        OptionsButtonUI.SetActive(false);
+        CreditsUI.SetActive(false);
+        BackButtonUI.SetActive(true);
+        CreditsText.SetActive(false);
+        // Ronnie 4/27
+        LevelSelectTitle.SetActive(true);
+        LevelSelect01.SetActive(true);
+        LevelSelect02.SetActive(true);
     }
     public void QuitGame()
     {
