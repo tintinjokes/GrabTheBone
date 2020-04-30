@@ -998,7 +998,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chocolate
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
+    - {fileID: -686629763279856289, guid: d881e9b96f5017141a7aa4f5c052e20c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d881e9b96f5017141a7aa4f5c052e20c, type: 3}
 --- !u!1001 &115522604
 PrefabInstance:
@@ -5271,6 +5273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59cc8168ce4f7c24283eaa10cad6c6c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPaused: 0
   Pause: {fileID: 163427270}
 --- !u!61 &1121775386
 BoxCollider2D:
