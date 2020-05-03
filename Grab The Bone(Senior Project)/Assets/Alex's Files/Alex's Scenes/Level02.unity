@@ -7854,6 +7854,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1029888403860259544, guid: fda6cff3aacc2f44cad67971ee9d5d49,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1012581054}
+    - target: {fileID: 1029888403860259544, guid: fda6cff3aacc2f44cad67971ee9d5d49,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 3061195340605620773, guid: fda6cff3aacc2f44cad67971ee9d5d49,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1012581054}
+    - target: {fileID: 3061195340605620773, guid: fda6cff3aacc2f44cad67971ee9d5d49,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Restart
+      objectReference: {fileID: 0}
+    - target: {fileID: 6100573635707124838, guid: fda6cff3aacc2f44cad67971ee9d5d49,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7507175937310407809, guid: fda6cff3aacc2f44cad67971ee9d5d49,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

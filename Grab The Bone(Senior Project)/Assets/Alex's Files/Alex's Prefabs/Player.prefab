@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3930131946411695629}
   - component: {fileID: 3930131946411695626}
   - component: {fileID: 1465650345}
+  - component: {fileID: 1905287308}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -150,7 +151,7 @@ MonoBehaviour:
   speed: 7.5
   jumpforce: 10
   jump: 1
-  speedboost: 2
+  speedboost: 1.5
 --- !u!95 &1465650345
 Animator:
   serializedVersion: 3
@@ -170,6 +171,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1905287308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3930131946411695617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df2927228feabf744a5167e6fa60c086, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tennisball: {fileID: 6797853272789780346, guid: 626eabe8c2c7ae048b7c86e3c228b946,
+    type: 3}
+  shootpoint: {fileID: 751043082845714913}
 --- !u!1 &5440025805510916200
 GameObject:
   m_ObjectHideFlags: 0
