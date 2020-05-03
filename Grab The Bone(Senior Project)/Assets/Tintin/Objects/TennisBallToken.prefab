@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3733452409204358256}
   - component: {fileID: 1183993035905605461}
   - component: {fileID: 7709825695284444458}
+  - component: {fileID: 8782970633150920878}
   m_Layer: 0
   m_Name: TennisBallToken
   m_TagString: Untagged
@@ -120,3 +121,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &8782970633150920878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425270672640736227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8e4d92540235e244ad95757a650176c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -173,10 +173,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538525a8f6b49e04b9a5ce053deb15f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenuCanvas: {fileID: 2072655301}
-  levelCanvas: {fileID: 832207613}
-  optionsCanvas: {fileID: 473588562}
-  creditsCanvas: {fileID: 250069171}
 --- !u!114 &32160855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -624,10 +620,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538525a8f6b49e04b9a5ce053deb15f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenuCanvas: {fileID: 2072655301}
-  levelCanvas: {fileID: 832207613}
-  optionsCanvas: {fileID: 473588562}
-  creditsCanvas: {fileID: 250069171}
 --- !u!114 &216886085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -948,10 +940,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538525a8f6b49e04b9a5ce053deb15f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenuCanvas: {fileID: 2072655301}
-  levelCanvas: {fileID: 832207613}
-  optionsCanvas: {fileID: 250069171}
-  creditsCanvas: {fileID: 250069171}
 --- !u!114 &274714343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2064,7 +2052,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 877272387}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 538525a8f6b49e04b9a5ce053deb15f4, type: 3}
+  m_Script: {fileID: 11500000, guid: a5ce5ee0c891f9e45ac69ea89608b662, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mainMenuCanvas: {fileID: 2072655301}
@@ -2080,7 +2068,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 877272387}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 044fe790b41e53e40be7153341a3ebe9, type: 3}
+  m_Script: {fileID: 11500000, guid: 22f500df780d36c4fbfa60aa4b45543b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   musicVolume: 1
@@ -3273,10 +3261,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538525a8f6b49e04b9a5ce053deb15f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenuCanvas: {fileID: 2072655301}
-  levelCanvas: {fileID: 832207613}
-  optionsCanvas: {fileID: 473588562}
-  creditsCanvas: {fileID: 250069171}
 --- !u!1 &1497603210
 GameObject:
   m_ObjectHideFlags: 0
@@ -3851,10 +3835,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538525a8f6b49e04b9a5ce053deb15f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenuCanvas: {fileID: 2072655301}
-  levelCanvas: {fileID: 832207613}
-  optionsCanvas: {fileID: 473588562}
-  creditsCanvas: {fileID: 250069171}
 --- !u!114 &1998729927
 MonoBehaviour:
   m_ObjectHideFlags: 0
