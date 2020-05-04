@@ -10,11 +10,13 @@ public class Score_Script : MonoBehaviour
     TextMeshProUGUI highscoreText;
     public static int scorecount = 0;
     public static int highscore = 0;
+    
 
     void Start()
     {
         scoreText = GetComponent<TextMeshProUGUI>();
         highscoreText = GetComponent<TextMeshProUGUI>();
+        
     }
 
 
@@ -37,6 +39,13 @@ public class Score_Script : MonoBehaviour
         }
     }
 }
-    
 
-    
+//TextMeshProUGUI ballCounterText;
+
+//public static int ballcount = 0;
+
+//ballCounterText = GetComponent<TextMeshProUGUI>();
+
+//ballCounterText.text = "x " + ballcount;
+
+

@@ -95,6 +95,10 @@ public class player_movement : MonoBehaviour
             FindObjectOfType<AudioManager>().Play("Eat Munch 2 Sound Effect (download)");
         }
 
+        if (collision.gameObject.tag.Equals("Ball"))
+        {
+            ballCounter.ballcount += 1;
+        }
 
         
         if (collision.gameObject.tag.Equals("FinishBone")) 

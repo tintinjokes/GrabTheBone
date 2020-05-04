@@ -15,6 +15,7 @@ TagManager:
   - Small Bone
   - Enemy2
   - FinishBone2
+  - Ball
   layers:
   - Default
   - TransparentFX
