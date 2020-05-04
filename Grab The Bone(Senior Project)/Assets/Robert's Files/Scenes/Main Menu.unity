@@ -937,9 +937,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 274714340}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 538525a8f6b49e04b9a5ce053deb15f4, type: 3}
+  m_Script: {fileID: 11500000, guid: a5ce5ee0c891f9e45ac69ea89608b662, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainMenuCanvas: {fileID: 2072655301}
+  levelCanvas: {fileID: 832207613}
+  optionsCanvas: {fileID: 473588562}
+  creditsCanvas: {fileID: 250069171}
 --- !u!114 &274714343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1130,7 +1134,7 @@ RectTransform:
   m_GameObject: {fileID: 298732527}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 668086734}
   m_RootOrder: 0
@@ -1158,7 +1162,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 46b96a8dde855514f9547f9c220ad1de, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2217,7 +2221,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Grab The Bone
+  m_Text: Grab The Boner
 --- !u!222 &900619282
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3258,9 +3262,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1475974068}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 538525a8f6b49e04b9a5ce053deb15f4, type: 3}
+  m_Script: {fileID: 11500000, guid: a5ce5ee0c891f9e45ac69ea89608b662, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainMenuCanvas: {fileID: 2072655301}
+  levelCanvas: {fileID: 832207613}
+  optionsCanvas: {fileID: 473588562}
+  creditsCanvas: {fileID: 250069171}
 --- !u!1 &1497603210
 GameObject:
   m_ObjectHideFlags: 0
@@ -3287,7 +3295,7 @@ RectTransform:
   m_GameObject: {fileID: 1497603210}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 1067189718}
   - {fileID: 1241510176}
