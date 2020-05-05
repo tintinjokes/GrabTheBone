@@ -71,6 +71,12 @@ public class player_movement : MonoBehaviour
             Score_Script.scorecount = 0;
         }
 
+        if (collision.gameObject.tag.Equals("Enemy3"))
+        {
+            SceneManager.LoadScene("Level03");
+            Score_Script.scorecount = 0;
+        }
+
     }
 
     //Comeback to update SCORE:0

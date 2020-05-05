@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Alex's Files/Alex's Scenes/Level02.unity
     guid: 614bea9ef04894149b2d93219c6225f4
+  - enabled: 1
+    path: Assets/Alex's Files/Alex's Scenes/Level03.unity
+    guid: 02dfe010ab44f9542abe150252386a4b
   m_configObjects: {}

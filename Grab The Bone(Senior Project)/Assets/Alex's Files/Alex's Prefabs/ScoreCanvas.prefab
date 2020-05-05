@@ -200,6 +200,8 @@ GameObject:
   - component: {fileID: 1460878753}
   - component: {fileID: 1460878755}
   - component: {fileID: 1460878754}
+  - component: {fileID: 233703764}
+  - component: {fileID: 731078744008214335}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -223,8 +225,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8, y: -2}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -2, y: -21}
+  m_SizeDelta: {x: 191.5, y: 105.59}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1460878755
 CanvasRenderer:
@@ -252,7 +254,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0
+  m_text: x
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -297,7 +299,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 0
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -318,7 +320,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 83.49704, y: 0, z: 93.75112, w: 14.479631}
+  m_margin: {x: 61.742878, y: 10.338063, z: -6.3177896, w: 6.209175}
   m_textInfo:
     textComponent: {fileID: 1460878754}
     characterCount: 1
@@ -344,6 +346,30 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &233703764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460878752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64e98f87120945243be150930cb3b120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &731078744008214335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460878752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64e98f87120945243be150930cb3b120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1664787089
 GameObject:
   m_ObjectHideFlags: 0
@@ -1241,17 +1267,6 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Jump5
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &9217110531717385779

@@ -16,6 +16,7 @@ TagManager:
   - Enemy2
   - FinishBone2
   - Ball
+  - Enemy3
   layers:
   - Default
   - TransparentFX

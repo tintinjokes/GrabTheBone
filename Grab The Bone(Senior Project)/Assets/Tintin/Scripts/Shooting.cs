@@ -17,6 +17,7 @@ public class Shooting : MonoBehaviour
             {
                 Fire();
                 tshots--;
+                ballCounter.ballcount -= 1;
             }
 
             Debug.Log("HEY YOU PRESSED THE FIRE BUTTON");
