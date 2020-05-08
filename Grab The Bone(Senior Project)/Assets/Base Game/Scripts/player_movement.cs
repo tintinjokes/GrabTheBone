@@ -63,18 +63,21 @@ public class player_movement : MonoBehaviour
         {
             SceneManager.LoadScene("Level01");
             Score_Script.scorecount = 0;
+            ballCounter.ballcount = 0;
         }
 
         if (collision.gameObject.tag.Equals("Enemy2"))
         {
             SceneManager.LoadScene("Level02");
             Score_Script.scorecount = 0;
+            ballCounter.ballcount = 0;
         }
 
         if (collision.gameObject.tag.Equals("Enemy3"))
         {
             SceneManager.LoadScene("Level03");
             Score_Script.scorecount = 0;
+            ballCounter.ballcount = 0;
         }
 
     }
