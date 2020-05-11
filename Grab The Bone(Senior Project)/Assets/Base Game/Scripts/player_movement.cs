@@ -31,7 +31,7 @@ public class player_movement : MonoBehaviour
     {
         transform.Translate(Vector2.right * speed * Time.deltaTime);
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !MouseOverUI())
         {
             //jumping();
             if (jump == true)
@@ -45,8 +45,11 @@ public class player_movement : MonoBehaviour
             }
         }
     }
-
-   
+    
+    private bool MouseOverUI()
+    {
+        return EventSystem.current.IsPointerOverGameObject();
+    }   
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
