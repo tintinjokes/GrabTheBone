@@ -797,21 +797,29 @@ PrefabInstance:
       propertyPath: isPaused
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1460878753, guid: 46a59c3c772167448a3790d45773a27b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 4.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460878753, guid: 46a59c3c772167448a3790d45773a27b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -21.4
+      objectReference: {fileID: 0}
     - target: {fileID: 1460878754, guid: 46a59c3c772167448a3790d45773a27b, type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1460878754, guid: 46a59c3c772167448a3790d45773a27b, type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1460878754, guid: 46a59c3c772167448a3790d45773a27b, type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1460878754, guid: 46a59c3c772167448a3790d45773a27b, type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2171912744839291811, guid: 46a59c3c772167448a3790d45773a27b,
         type: 3}
@@ -1272,6 +1280,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ChangeScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 1029888403860259544, guid: fda6cff3aacc2f44cad67971ee9d5d49,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Credits_Scene
       objectReference: {fileID: 0}
     - target: {fileID: 3061195340605620773, guid: fda6cff3aacc2f44cad67971ee9d5d49,
         type: 3}
@@ -2072,6 +2085,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ChangeScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 1029888403860259544, guid: fda6cff3aacc2f44cad67971ee9d5d49,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Bonus_Level
       objectReference: {fileID: 0}
     - target: {fileID: 3061195340605620773, guid: fda6cff3aacc2f44cad67971ee9d5d49,
         type: 3}
@@ -5087,6 +5105,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3930131946411695626, guid: c84b3241adef1714c80082802e2a8d24,
+        type: 3}
+      propertyPath: uiLayer.m_Bits
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 3930131946411695628, guid: c84b3241adef1714c80082802e2a8d24,
         type: 3}

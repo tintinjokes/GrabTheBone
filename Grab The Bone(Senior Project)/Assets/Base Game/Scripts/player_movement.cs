@@ -16,6 +16,7 @@ public class player_movement : MonoBehaviour
     public float jumpforce;
     public bool jump = true;
     public float speedboost;
+    public LayerMask uiLayer;
     
 
     // Start is called before the first frame update
@@ -31,9 +32,13 @@ public class player_movement : MonoBehaviour
     {
         transform.Translate(Vector2.right * speed * Time.deltaTime);
 
-        if (Input.GetMouseButtonDown(0) && !MouseOverUI())
+        if (Input.GetMouseButtonDown(0) && MouseOverUI())
         {
-            //jumping();
+            Debug.Log("MouseOverUI called");
+            return;
+        }
+        else if (Input.GetMouseButtonDown(0) && !MouseOverUI())
+        {
             if (jump == true)
             {
                 rb.AddForce(transform.up * jumpforce, ForceMode2D.Impulse);
@@ -43,12 +48,13 @@ public class player_movement : MonoBehaviour
                 animator.SetBool("IsRunning", false);
                 FindObjectOfType<AudioManager>().Play("Jump5");
             }
+            Debug.Log("!MouseOverUI called");
         }
     }
     
     private bool MouseOverUI()
     {
-        return EventSystem.current.IsPointerOverGameObject();
+        return EventSystem.current.IsPointerOverGameObject(uiLayer);
     }   
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -62,7 +68,15 @@ public class player_movement : MonoBehaviour
 
 
         // change to kill the player, pop up game over screen with score and options
-        if(collision.gameObject.tag.Equals("Enemy"))
+
+        if (collision.gameObject.tag.Equals("TEnemy"))
+        {
+            SceneManager.LoadScene("Tutorial_Level");
+            Score_Script.scorecount = 0;
+            ballCounter.ballcount = 0;
+        }
+
+        if (collision.gameObject.tag.Equals("Enemy"))
         {
             SceneManager.LoadScene("Level01");
             Score_Script.scorecount = 0;

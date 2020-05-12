@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Alex's Files/Alex's Scenes/Level03.unity
     guid: 02dfe010ab44f9542abe150252386a4b
+  - enabled: 1
+    path: Assets/Alex's Files/Alex's Scenes/Credits_Scene.unity
+    guid: 92ecc76a12a1bea419fcd7c90f3280cc
+  - enabled: 1
+    path: Assets/Alex's Files/Alex's Scenes/Tutorial_Level.unity
+    guid: ee7708998f104a349b9bb9a0109cc033
+  - enabled: 1
+    path: Assets/Alex's Files/Alex's Scenes/Bonus_Level.unity
+    guid: dca7ebbe61466314cad3adac2e444637
   m_configObjects: {}
