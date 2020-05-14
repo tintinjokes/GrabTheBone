@@ -31,7 +31,7 @@ public class Shooting : MonoBehaviour
         
         if(token.gameObject.name == "TennisBallToken")
         {
-            tshots = 1;
+            tshots = 4;
             Debug.Log("Hey you found a token");
         }
         
