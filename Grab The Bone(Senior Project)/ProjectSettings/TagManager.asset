@@ -17,6 +17,7 @@ TagManager:
   - FinishBone2
   - Ball
   - Enemy3
+  - TEnemy
   layers:
   - Default
   - TransparentFX

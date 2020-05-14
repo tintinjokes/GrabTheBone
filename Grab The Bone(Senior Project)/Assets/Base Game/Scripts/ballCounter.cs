@@ -17,7 +17,7 @@ public class ballCounter : MonoBehaviour
 
     void Update()
     {
-         ballCounterText.text = "x " + ballcount;
+         ballCounterText.text = "x" + ballcount;
 
     }
 
