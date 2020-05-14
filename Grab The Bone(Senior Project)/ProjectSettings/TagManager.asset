@@ -18,6 +18,7 @@ TagManager:
   - Ball
   - Enemy3
   - TEnemy
+  - BEnemy
   layers:
   - Default
   - TransparentFX

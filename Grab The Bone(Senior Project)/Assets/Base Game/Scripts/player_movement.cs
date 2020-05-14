@@ -97,6 +97,13 @@ public class player_movement : MonoBehaviour
             ballCounter.ballcount = 0;
         }
 
+        if (collision.gameObject.tag.Equals("BEnemy"))
+        {
+            SceneManager.LoadScene("Bonus_Level");
+            Score_Script.scorecount = 0;
+            ballCounter.ballcount = 0;
+        }
+
     }
 
     //Comeback to update SCORE:0
