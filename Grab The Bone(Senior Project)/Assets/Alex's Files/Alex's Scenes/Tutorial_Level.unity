@@ -1713,7 +1713,7 @@ PrefabInstance:
     - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
         type: 3}
       propertyPath: sounds.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
         type: 3}
@@ -1768,6 +1768,26 @@ PrefabInstance:
     - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
         type: 3}
       propertyPath: sounds.Array.data[2].pitch
+      value: 1.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
+        type: 3}
+      propertyPath: sounds.Array.data[3].name
+      value: ThrownBallSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
+        type: 3}
+      propertyPath: sounds.Array.data[3].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: cc6e605040e00c5468e6688f06b62a7b, type: 3}
+    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
+        type: 3}
+      propertyPath: sounds.Array.data[3].volume
+      value: 0.092
+      objectReference: {fileID: 0}
+    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
+        type: 3}
+      propertyPath: sounds.Array.data[3].pitch
       value: 1.02
       objectReference: {fileID: 0}
     - target: {fileID: 4678263370792132470, guid: bf41a7fd667995e4795d4d987979660f,
@@ -2165,6 +2185,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1920885535}
     m_Modifications:
+    - target: {fileID: 1460878753, guid: 46a59c3c772167448a3790d45773a27b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1460878754, guid: 46a59c3c772167448a3790d45773a27b, type: 3}
       propertyPath: m_textInfo.characterCount
       value: 0

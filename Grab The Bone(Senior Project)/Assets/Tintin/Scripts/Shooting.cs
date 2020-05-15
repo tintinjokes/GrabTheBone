@@ -18,6 +18,7 @@ public class Shooting : MonoBehaviour
                 Fire();
                 tshots--;
                 ballCounter.ballcount -= 1;
+                FindObjectOfType<AudioManager>().Play("ThrownBallSound");
             }
 
             Debug.Log("HEY YOU PRESSED THE FIRE BUTTON");
@@ -40,5 +41,6 @@ public class Shooting : MonoBehaviour
     void Fire()
     {
         Instantiate(tennisball, shootpoint);
+      
     }
 }
