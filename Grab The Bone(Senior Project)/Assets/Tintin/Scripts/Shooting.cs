@@ -18,7 +18,7 @@ public class Shooting : MonoBehaviour
                 Fire();
                 tshots--;
                 ballCounter.ballcount -= 1;
-                FindObjectOfType<AudioManager>().Play("ThrownBallSound");
+                FindObjectOfType<AudioManager>().Play("ThrownBallSound_03");
             }
 
             Debug.Log("HEY YOU PRESSED THE FIRE BUTTON");

@@ -176,7 +176,7 @@ PrefabInstance:
     - target: {fileID: 1434248336243075164, guid: 8b4c7d108cbca2249b70589f2c3aef0d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1434248336243075164, guid: 8b4c7d108cbca2249b70589f2c3aef0d,
         type: 3}
@@ -1693,7 +1693,7 @@ PrefabInstance:
     - target: {fileID: 1057171984471153942, guid: bf41a7fd667995e4795d4d987979660f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1057171984471153942, guid: bf41a7fd667995e4795d4d987979660f,
         type: 3}
@@ -1773,13 +1773,13 @@ PrefabInstance:
     - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
         type: 3}
       propertyPath: sounds.Array.data[3].name
-      value: ThrownBallSound
+      value: ThrownBallSound_03
       objectReference: {fileID: 0}
     - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
         type: 3}
       propertyPath: sounds.Array.data[3].clip
       value: 
-      objectReference: {fileID: 8300000, guid: cc6e605040e00c5468e6688f06b62a7b, type: 3}
+      objectReference: {fileID: 8300000, guid: 3ad12bcda8ed9a8408d54095dbab7b90, type: 3}
     - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
         type: 3}
       propertyPath: sounds.Array.data[3].volume
@@ -3178,7 +3178,7 @@ PrefabInstance:
     - target: {fileID: 6670704397932959730, guid: 528cecb7f075e2b43a5bcdfa6b6f258b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6670704397932959730, guid: 528cecb7f075e2b43a5bcdfa6b6f258b,
         type: 3}
