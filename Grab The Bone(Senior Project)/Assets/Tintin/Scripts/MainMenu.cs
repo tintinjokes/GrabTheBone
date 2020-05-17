@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
@@ -17,38 +18,40 @@ public class MainMenu : MonoBehaviour
     public GameObject LevelSelectTitle;
     public GameObject LevelSelect01;
     public GameObject LevelSelect02;
+    public Animator animator;
+
     // static bool isLoaded = false;
 
-                                                                                                                // Update is called once per frame
-                                                                                                                 //void Update()
-                                                                                                                //{
-                                                                                                                  //  if (Input.GetKeyDown(KeyCode.Escape))
-                                                                                                                  ///    if (IsPaused)                              // I don't know if I don't want this yet
-                                                                                                                     //   {
-                                                                                                           ///      Resume();
-                                                                                                                       // }
-                                                                                                                      //  else
-                                                                                                                       // {
-                                                                                                                        //    Pause();
-                                                                                                                       // }
-                                                                                                                  //  }
-                                                                                                                //}
-                                                                                                                
-                                                                                                               //  public void StartGame()
-                                                                                                                // {
-                                                                                                              //       MainMenuUI.SetActive(false);
-                                                                                                                  //   Time.timeScale = 1f;
-                                                                                                                    // IsPaused = false;
-                                                                                                                 //}
+    // Update is called once per frame
+    //void Update()
+    //{
+    //  if (Input.GetKeyDown(KeyCode.Escape))
+    ///    if (IsPaused)                              // I don't know if I don't want this yet
+    //   {
+    ///      Resume();
+    // }
+    //  else
+    // {
+    //    Pause();
+    // }
+    //  }
+    //}
 
-                                                                                                                // void Pause()
-                                                                                                                // {
-                                                                                                                 //    pauseMenuUI.SetActive(true);
-                                                                                                                 //    Time.timeScale = 0f;
-                                                                                                                 //    IsPaused = true;
-                                                                                                                // }
-                                                                                                                
-    
+    //  public void StartGame()
+    // {
+    //       MainMenuUI.SetActive(false);
+    //   Time.timeScale = 1f;
+    // IsPaused = false;
+    //}
+
+    // void Pause()
+    // {
+    //    pauseMenuUI.SetActive(true);
+    //    Time.timeScale = 0f;
+    //    IsPaused = true;
+    // }
+
+
 
 
     private void Start()
@@ -62,6 +65,8 @@ public class MainMenu : MonoBehaviour
         LevelSelectTitle.SetActive(false);
         LevelSelect01.SetActive(false);
         LevelSelect02.SetActive(false);
+        
+        
     }
     private void Update()
     {
