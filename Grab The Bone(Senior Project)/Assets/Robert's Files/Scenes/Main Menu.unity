@@ -580,7 +580,6 @@ GameObject:
   - component: {fileID: 216886087}
   - component: {fileID: 216886086}
   - component: {fileID: 216886085}
-  - component: {fileID: 216886084}
   m_Layer: 5
   m_Name: Back Button
   m_TagString: Untagged
@@ -608,18 +607,6 @@ RectTransform:
   m_AnchoredPosition: {x: -311.7, y: 164.4}
   m_SizeDelta: {x: -531.8, y: -309.1}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &216886084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 216886082}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 538525a8f6b49e04b9a5ce053deb15f4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &216886085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -663,7 +650,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 216886084}
+      - m_Target: {fileID: 877272392}
         m_MethodName: PressBack
         m_Mode: 1
         m_Arguments:

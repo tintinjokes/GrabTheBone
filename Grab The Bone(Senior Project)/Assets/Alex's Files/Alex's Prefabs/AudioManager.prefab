@@ -41,7 +41,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 004a37cbb9a88e54b9e76377907887cd, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -173,15 +173,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: 
+  - name: Jump5
     clip: {fileID: 8300000, guid: 37eb6e34369fdd4479edb041a81c4e4b, type: 3}
-    volume: 0
-    pitch: 0
+    volume: 0.537
+    pitch: 1.02
     source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 0
-    pitch: 0
+  - name: nice Bite Sound Effect
+    clip: {fileID: 8300000, guid: f8512743a26dc2141800c71996c94440, type: 3}
+    volume: 0.11
+    pitch: 1.02
+    source: {fileID: 0}
+  - name: Eat Munch 2 Sound Effect (download)
+    clip: {fileID: 8300000, guid: e8b5018a1823b9841ac9fe24765813a3, type: 3}
+    volume: 0.092
+    pitch: 1.02
+    source: {fileID: 0}
+  - name: ThrownBallSound_03
+    clip: {fileID: 8300000, guid: 3ad12bcda8ed9a8408d54095dbab7b90, type: 3}
+    volume: 0.092
+    pitch: 1.02
     source: {fileID: 0}
 --- !u!1 &7745338861181961660
 GameObject:

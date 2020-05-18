@@ -1710,96 +1710,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[1].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: f8512743a26dc2141800c71996c94440, type: 3}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[1].name
-      value: nice Bite Sound Effect
-      objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[0].name
-      value: Jump5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[0].volume
-      value: 0.537
-      objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[0].pitch
-      value: 1.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[1].volume
-      value: 0.11
-      objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[1].pitch
-      value: 1.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[2].name
-      value: Eat Munch 2 Sound Effect (download)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[2].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: e8b5018a1823b9841ac9fe24765813a3, type: 3}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[2].volume
-      value: 0.092
-      objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[2].pitch
-      value: 1.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[3].name
-      value: ThrownBallSound_03
-      objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[3].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 3ad12bcda8ed9a8408d54095dbab7b90, type: 3}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[3].volume
-      value: 0.092
-      objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[3].pitch
-      value: 1.02
-      objectReference: {fileID: 0}
     - target: {fileID: 4678263370792132470, guid: bf41a7fd667995e4795d4d987979660f,
         type: 3}
       propertyPath: m_Name
       value: AudioManager
       objectReference: {fileID: 0}
-    - target: {fileID: 7928602266050616315, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 004a37cbb9a88e54b9e76377907887cd, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf41a7fd667995e4795d4d987979660f, type: 3}
 --- !u!1 &689837658
