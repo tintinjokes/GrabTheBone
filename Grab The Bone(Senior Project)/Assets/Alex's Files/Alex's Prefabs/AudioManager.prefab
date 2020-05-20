@@ -185,12 +185,17 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Eat Munch 2 Sound Effect (download)
     clip: {fileID: 8300000, guid: e8b5018a1823b9841ac9fe24765813a3, type: 3}
-    volume: 0.092
+    volume: 0.099
     pitch: 1.02
     source: {fileID: 0}
   - name: ThrownBallSound_03
     clip: {fileID: 8300000, guid: 3ad12bcda8ed9a8408d54095dbab7b90, type: 3}
-    volume: 0.092
+    volume: 0.35
+    pitch: 1.02
+    source: {fileID: 0}
+  - name: PickupSound
+    clip: {fileID: 8300000, guid: eed517059243f874fb0d46ea9be187c4, type: 3}
+    volume: 0.35
     pitch: 1.02
     source: {fileID: 0}
 --- !u!1 &7745338861181961660

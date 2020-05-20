@@ -7342,7 +7342,7 @@ PrefabInstance:
     - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
         type: 3}
       propertyPath: sounds.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
         type: 3}
@@ -7412,6 +7412,21 @@ PrefabInstance:
     - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
         type: 3}
       propertyPath: sounds.Array.data[3].volume
+      value: 0.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
+        type: 3}
+      propertyPath: sounds.Array.data[4].name
+      value: PickupSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
+        type: 3}
+      propertyPath: sounds.Array.data[4].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: eed517059243f874fb0d46ea9be187c4, type: 3}
+    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
+        type: 3}
+      propertyPath: sounds.Array.data[4].volume
       value: 0.38
       objectReference: {fileID: 0}
     - target: {fileID: 4678263370792132470, guid: bf41a7fd667995e4795d4d987979660f,

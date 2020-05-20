@@ -131,6 +131,7 @@ public class player_movement : MonoBehaviour
         if (collision.gameObject.tag.Equals("Ball"))
         {
             ballCounter.ballcount += 1;
+            FindObjectOfType<AudioManager>().Play("PickupSound");
         }
 
         
