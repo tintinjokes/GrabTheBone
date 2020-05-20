@@ -66,9 +66,11 @@ public class MenuChanges : MonoBehaviour
         }
     }
 
+/* Changed by Ronnie 5/19/20
     public void LevelSelect(string levelName)
     {
         SceneManager.LoadScene(levelName);
     }
+*/
 }
 

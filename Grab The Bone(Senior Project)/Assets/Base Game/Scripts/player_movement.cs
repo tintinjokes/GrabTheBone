@@ -143,6 +143,5 @@ public class player_movement : MonoBehaviour
         {
             Score_Script.scorecount += Score_Script.highscore;
         }
-
     }
 }
