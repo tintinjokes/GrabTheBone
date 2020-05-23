@@ -32,7 +32,7 @@ public class Shooting : MonoBehaviour
         
         if(token.gameObject.name == "TennisBallToken")
         {
-            tshots = 4;
+            tshots += 1;
             Debug.Log("Hey you found a token");
         }
         
