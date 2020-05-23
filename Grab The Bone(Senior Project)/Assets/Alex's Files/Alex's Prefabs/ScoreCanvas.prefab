@@ -225,7 +225,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2, y: -21}
+  m_AnchoredPosition: {x: 7, y: -21}
   m_SizeDelta: {x: 191.5, y: 105.59}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1460878755
@@ -911,7 +911,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pause
+  m_Text: 'Paws
+
+'
 --- !u!1 &5750826690391686060
 GameObject:
   m_ObjectHideFlags: 0

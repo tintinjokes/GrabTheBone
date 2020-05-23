@@ -2404,7 +2404,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Grab The Boner
+  m_Text: Grab The Bone
 --- !u!222 &900619282
 CanvasRenderer:
   m_ObjectHideFlags: 0
