@@ -1,27 +1,35 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Shooting : MonoBehaviour
 {
     public GameObject tennisball;
     public Transform shootpoint;
+    public LayerMask uiShootLayer;
     private int tshots;
+    
     
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1")) 
+        if (Input.GetMouseButtonDown(0) && MouseOverUI())
         {
             if (tshots != 0)
             {
-                Fire();
+                Instantiate(tennisball, shootpoint);
                 tshots--;
                 ballCounter.ballcount -= 1;
                 FindObjectOfType<AudioManager>().Play("ThrownBallSound_03");
             }
 
-            Debug.Log("HEY YOU PRESSED THE FIRE BUTTON");
+            Debug.Log("MouseOverUI, shot fired");
+        }
+
+        else if (Input.GetMouseButtonDown(0) && !MouseOverUI())
+        {
+            Debug.Log("!MouseOverUI");
         }
     }
 
@@ -38,9 +46,8 @@ public class Shooting : MonoBehaviour
         
         
     }
-    void Fire()
+    private bool MouseOverUI()
     {
-        Instantiate(tennisball, shootpoint);
-      
+        return EventSystem.current.IsPointerOverGameObject(uiShootLayer);
     }
 }
