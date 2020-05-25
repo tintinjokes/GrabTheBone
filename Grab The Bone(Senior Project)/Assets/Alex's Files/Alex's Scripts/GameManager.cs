@@ -29,6 +29,7 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
         Time.timeScale = 1f;
         Score_Script.scorecount = 0;
+        ballCounter.ballcount = 0;
     }
 
     public void Restart() 
@@ -36,6 +37,7 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1f;
         Score_Script.scorecount = 0;
+        ballCounter.ballcount = 0;
     }
 
 
