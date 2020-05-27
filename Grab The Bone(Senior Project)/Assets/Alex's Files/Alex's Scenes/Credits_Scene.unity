@@ -807,14 +807,14 @@ RectTransform:
   m_GameObject: {fileID: 190907658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.13498703, y: 0.21263155, z: 0.13498703}
+  m_LocalScale: {x: 0.21814655, y: 0.34362444, z: 0.21814655}
   m_Children: []
   m_Father: {fileID: 2032493264}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -11.6, y: -0.000002589}
+  m_AnchoredPosition: {x: 3.5, y: -0.6}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &190907660
@@ -848,7 +848,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: GrabTheBone
+  m_Text: "Grab The \n   Bone"
 --- !u!222 &190907661
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2983,6 +2983,9 @@ MonoBehaviour:
   tennisball: {fileID: 6797853272789780346, guid: 626eabe8c2c7ae048b7c86e3c228b946,
     type: 3}
   shootpoint: {fileID: 751043083270368621}
+  uiShootLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1831905315
 GameObject:
   m_ObjectHideFlags: 0

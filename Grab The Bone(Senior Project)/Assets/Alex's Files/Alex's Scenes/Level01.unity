@@ -7248,115 +7248,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[0].name
-      value: Jump5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[0].volume
-      value: 0.537
-      objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[0].pitch
-      value: 1.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[1].name
-      value: nice Bite Sound Effect
-      objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[1].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: f8512743a26dc2141800c71996c94440, type: 3}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[1].volume
-      value: 0.099
-      objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[1].pitch
-      value: 1.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[2].name
-      value: Eat Munch 2 Sound Effect (download)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[2].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: e8b5018a1823b9841ac9fe24765813a3, type: 3}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[2].volume
-      value: 0.11
-      objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[2].pitch
-      value: 1.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[3].name
-      value: ThrownBallSound_03
-      objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[3].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 3ad12bcda8ed9a8408d54095dbab7b90, type: 3}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[3].volume
-      value: 0.38
-      objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[4].name
-      value: PickupSound
-      objectReference: {fileID: 0}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[4].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: eed517059243f874fb0d46ea9be187c4, type: 3}
-    - target: {fileID: 4364094462761482945, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: sounds.Array.data[4].volume
-      value: 0.38
-      objectReference: {fileID: 0}
     - target: {fileID: 4678263370792132470, guid: bf41a7fd667995e4795d4d987979660f,
         type: 3}
       propertyPath: m_Name
       value: AudioManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 7928602266050616315, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: c86c3c5986515434aa63789e18d8bd9e, type: 3}
-    - target: {fileID: 7928602266050616315, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: Loop
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7928602266050616315, guid: bf41a7fd667995e4795d4d987979660f,
-        type: 3}
-      propertyPath: m_Volume
-      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf41a7fd667995e4795d4d987979660f, type: 3}
@@ -7482,7 +7377,7 @@ PrefabInstance:
     - target: {fileID: 478148868363714063, guid: f619c7d74e903f4459c47bb9c852aa6f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 183.84
+      value: 154
       objectReference: {fileID: 0}
     - target: {fileID: 478148868363714063, guid: f619c7d74e903f4459c47bb9c852aa6f,
         type: 3}
@@ -7513,6 +7408,37 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 387
+      objectReference: {fileID: 0}
+    - target: {fileID: 478148868415631825, guid: f619c7d74e903f4459c47bb9c852aa6f,
+        type: 3}
+      propertyPath: m_text
+      value: 'Welcome to Grab The Bone.
+
+
+        You are Weatherby, a dog of excitement
+        and enjoys the taste of a good bone.
+
+
+        You set out across different
+        landscapes, achieving the ultimate taste for the purrest bone you can get
+        your paws on.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 478148868415631825, guid: f619c7d74e903f4459c47bb9c852aa6f,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 221
+      objectReference: {fileID: 0}
+    - target: {fileID: 478148868415631825, guid: f619c7d74e903f4459c47bb9c852aa6f,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 478148868415631825, guid: f619c7d74e903f4459c47bb9c852aa6f,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 478148868415631826, guid: f619c7d74e903f4459c47bb9c852aa6f,
         type: 3}
