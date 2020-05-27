@@ -43,6 +43,7 @@ public class Musicadjust : MonoBehaviour
     public void SetVolume(float vol)
     {
         musicVolume = vol;
+
     }
 
     public void ApplyButton()
