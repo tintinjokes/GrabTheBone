@@ -1119,6 +1119,16 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 22
       objectReference: {fileID: 0}
+    - target: {fileID: 5774708984358130021, guid: 46a59c3c772167448a3790d45773a27b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1395571884}
+    - target: {fileID: 5774708984358130021, guid: 46a59c3c772167448a3790d45773a27b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeScene
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46a59c3c772167448a3790d45773a27b, type: 3}
 --- !u!224 &216258761 stripped
@@ -5500,6 +5510,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioManager
       objectReference: {fileID: 0}
+    - target: {fileID: 7928602266050616315, guid: bf41a7fd667995e4795d4d987979660f,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 004a37cbb9a88e54b9e76377907887cd, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf41a7fd667995e4795d4d987979660f, type: 3}
 --- !u!1 &1033488547
@@ -8026,7 +8041,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 38.2, y: 187}
+  m_AnchoredPosition: {x: 38.2, y: 159}
   m_SizeDelta: {x: 276.4, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1812155893

@@ -42,11 +42,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 004a37cbb9a88e54b9e76377907887cd, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c86c3c5986515434aa63789e18d8bd9e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -194,22 +194,22 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: nice Bite Sound Effect
     clip: {fileID: 8300000, guid: f8512743a26dc2141800c71996c94440, type: 3}
-    volume: 0.11
+    volume: 0.099
     pitch: 1.02
     source: {fileID: 0}
   - name: Eat Munch 2 Sound Effect (download)
     clip: {fileID: 8300000, guid: e8b5018a1823b9841ac9fe24765813a3, type: 3}
-    volume: 0.099
+    volume: 0.11
     pitch: 1.02
     source: {fileID: 0}
   - name: ThrownBallSound_03
     clip: {fileID: 8300000, guid: 3ad12bcda8ed9a8408d54095dbab7b90, type: 3}
-    volume: 0.35
+    volume: 0.38
     pitch: 1.02
     source: {fileID: 0}
   - name: PickupSound
     clip: {fileID: 8300000, guid: eed517059243f874fb0d46ea9be187c4, type: 3}
-    volume: 0.35
+    volume: 0.38
     pitch: 1.02
     source: {fileID: 0}
 --- !u!1 &7745338861181961660
