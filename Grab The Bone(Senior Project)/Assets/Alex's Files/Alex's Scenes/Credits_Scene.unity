@@ -807,15 +807,15 @@ RectTransform:
   m_GameObject: {fileID: 190907658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.13498703, y: 0.21263155, z: 0.13498703}
+  m_LocalScale: {x: 0.1, y: 0.2, z: 0.13498703}
   m_Children: []
   m_Father: {fileID: 2032493264}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -11.6, y: -0.000002589}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0.0000024437904, y: 0.00000014901}
+  m_SizeDelta: {x: 431.83, y: 35.06}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &190907660
 MonoBehaviour:
@@ -837,10 +837,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 372e35581434dde4fb68c47f1e02096c, type: 3}
-    m_FontSize: 5
+    m_FontSize: 2
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 5
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -848,7 +848,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: GrabTheBone
+  m_Text: Grab The Bone
 --- !u!222 &190907661
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -882,7 +882,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 245713957}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 123.93, y: 16.53, z: 42.453125}
+  m_LocalPosition: {x: 149.7, y: 16.53, z: 42.453125}
   m_LocalScale: {x: 12.044649, y: 8.875573, z: 6.060643}
   m_Children:
   - {fileID: 557159369}
@@ -964,7 +964,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 291740662}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 157.3, y: 16.53, z: 42.453125}
+  m_LocalPosition: {x: 44, y: 16.53, z: 42.453125}
   m_LocalScale: {x: 12.044649, y: 8.875573, z: 6.060643}
   m_Children:
   - {fileID: 504999565}
@@ -1112,7 +1112,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 420517481}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 43.93, y: 16.53, z: 42.453125}
+  m_LocalPosition: {x: 70.7, y: 16.53, z: 42.453125}
   m_LocalScale: {x: 12.044649, y: 8.875573, z: 6.060643}
   m_Children:
   - {fileID: 181655285}
@@ -1725,7 +1725,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 710921712}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 70.98, y: 16.53, z: 42.453125}
+  m_LocalPosition: {x: 97.8, y: 16.53, z: 42.453125}
   m_LocalScale: {x: 12.044649, y: 8.875573, z: 6.060643}
   m_Children:
   - {fileID: 791109548}
@@ -2370,7 +2370,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1325863899}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 195, y: 16.53, z: 42.453125}
+  m_LocalPosition: {x: 188.12, y: 16.53, z: 42.453125}
   m_LocalScale: {x: 12.044649, y: 8.875573, z: 6.060643}
   m_Children:
   - {fileID: 1326853225}
@@ -3008,7 +3008,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1831905315}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 98.11, y: 16.53, z: 42.453125}
+  m_LocalPosition: {x: 123.880005, y: 16.53, z: 42.453125}
   m_LocalScale: {x: 12.044649, y: 8.875573, z: 6.060643}
   m_Children:
   - {fileID: 1734297911}
@@ -3413,15 +3413,15 @@ RectTransform:
   m_GameObject: {fileID: 2023630768}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.07946292, y: 0.18684438, z: 0.09140833}
+  m_LocalScale: {x: 0.09, y: 0.2, z: 0.09140833}
   m_Children: []
   m_Father: {fileID: 2047107146}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -17.9, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.70000076, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2023630770
 MonoBehaviour:
@@ -3448,13 +3448,13 @@ MonoBehaviour:
     m_BestFit: 1
     m_MinSize: 4
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Thankyou For Playing
+  m_Text: Thank you For Playing!
 --- !u!222 &2023630771
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3596,7 +3596,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.8, y: -24.7}
+  m_AnchoredPosition: {x: -36.7, y: -24.7}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2036823632
@@ -3617,7 +3617,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Robert Freitas\tValentino Fernandez\n\nAlex Correia\t\tRonnie Espinosa"
+  m_text: 'Robert Freitas    Valentino Fernandez
+
+
+    Alex Correia       Ronnie
+    Espinosa'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3652,7 +3656,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 528
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -3683,12 +3687,12 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -353.5502, w: -140.9976}
+  m_margin: {x: 0, y: 0, z: -339.17404, w: -62.96089}
   m_textInfo:
     textComponent: {fileID: 2036823632}
-    characterCount: 65
+    characterCount: 73
     spriteCount: 0
-    spaceCount: 9
+    spaceCount: 17
     wordCount: 8
     linkCount: 0
     lineCount: 3

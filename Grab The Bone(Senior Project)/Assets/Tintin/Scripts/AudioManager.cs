@@ -6,6 +6,7 @@ using UnityEngine.Audio;
 public class AudioManager : MonoBehaviour
 {
     public Sound[] sounds;
+    private float volume;
     
     void Awake()
     {
@@ -19,6 +20,13 @@ public class AudioManager : MonoBehaviour
         }
     }
 
+
+    private void Update()
+    {
+        volume = PlayerPrefs.GetFloat("Volume Level");
+
+        GetComponent<AudioSource>().volume = volume;
+    }
 
     public void Play(string name)
     {
@@ -36,5 +44,11 @@ public class AudioManager : MonoBehaviour
     {
         Sound s = Array.Find(sounds, Sound => Sound.name == name);
         s.source.Pause();
+    }
+
+
+    public void changevolume()
+    {
+        volume = PlayerPrefs.GetFloat("Volume Level");
     }
 }

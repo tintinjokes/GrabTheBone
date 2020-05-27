@@ -12,17 +12,6 @@ public class GameManager : MonoBehaviour
         instance = this;
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void ChangeScene(string sceneName)
     {
@@ -38,7 +27,6 @@ public class GameManager : MonoBehaviour
         Score_Script.scorecount = 0;
     }
 
-
         public void QuitApplication()
     {
         #if UNITY_EDITOR
@@ -47,5 +35,4 @@ public class GameManager : MonoBehaviour
             Application.Quit();
         #endif
     }
-
 }
