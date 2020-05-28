@@ -14,8 +14,9 @@ public class Musicadjust : MonoBehaviour
 
     // Music volume variable that will be modified
     // by dragging slider knob
-    
     public float musicVolume;
+
+    public Slider slider;
 
     // Use this for initialization
     
@@ -24,10 +25,16 @@ public class Musicadjust : MonoBehaviour
         // Assign Audio Source component to control it
         audioSrc = GetComponent<AudioSource>();
 
-        if(SceneManager.GetActiveScene().name == "Main Menu")
+
+        musicVolume = PlayerPrefs.GetFloat("Volume Level");
+
+
+
+        if (SceneManager.GetActiveScene().name == "Main Menu")
         {
             ResetButton();
         }
+
     }
 
     // Update is called once per frame
@@ -43,19 +50,20 @@ public class Musicadjust : MonoBehaviour
     public void SetVolume(float vol)
     {
         musicVolume = vol;
-
     }
 
     public void ApplyButton()
     {
         PlayerPrefs.SetFloat("Volume Level", musicVolume);
 
-        //Debug.Log(PlayerPrefs.GetFloat("Volume Level"));
+        Debug.Log(PlayerPrefs.GetFloat("Volume Level"));
     }
 
     public void ResetButton()
     {
         musicVolume = 1;
+
+        slider.value = 1;
 
         PlayerPrefs.SetFloat("Volume Level", musicVolume);
     }
