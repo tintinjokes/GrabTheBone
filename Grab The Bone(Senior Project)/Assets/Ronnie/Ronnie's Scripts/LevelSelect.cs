@@ -12,7 +12,7 @@ public class LevelSelect : MonoBehaviour
     void Start()
     {
         levelPassed = PlayerPrefs.GetInt("LevelPassed");
-        level01button.interactable = false;
+        level01button.interactable = true;
         level02button.interactable = false;
         level03button.interactable = false;
         bonusLevelButton.interactable = false;

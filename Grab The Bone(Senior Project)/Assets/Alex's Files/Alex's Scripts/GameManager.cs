@@ -7,11 +7,27 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
+
     void Awake()
     {
         instance = this;
     }
 
+    // Start is called before the first frame update
+    void Start()
+    {
+        Scene currentScene = SceneManager.GetActiveScene();
+        int CurrentLevel = currentScene.buildIndex;
+        int levelPassed = PlayerPrefs.GetInt("LevelPassed");
+        if (levelPassed < CurrentLevel)
+            PlayerPrefs.SetInt("LevelPassed", CurrentLevel);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
 
     public void ChangeScene(string sceneName)
     {
@@ -29,6 +45,7 @@ public class GameManager : MonoBehaviour
         ballCounter.ballcount = 0;
     }
 
+
         public void QuitApplication()
     {
         #if UNITY_EDITOR
@@ -37,4 +54,5 @@ public class GameManager : MonoBehaviour
             Application.Quit();
         #endif
     }
+
 }
