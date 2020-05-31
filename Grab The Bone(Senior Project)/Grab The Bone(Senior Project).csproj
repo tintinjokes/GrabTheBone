@@ -638,7 +638,6 @@
     <Compile Include="Assets\Tintin\Scripts\Shooting.cs" />
     <Compile Include="Assets\Tintin\Scripts\Sound.cs" />
     <Compile Include="Assets\Tintin\Scripts\TennisBall.cs" />
-    <Compile Include="Assets\Tintin\Scripts\TennisPowerup.cs" />
     <Compile Include="Assets\transition.cs" />
   </ItemGroup>
   <ItemGroup>

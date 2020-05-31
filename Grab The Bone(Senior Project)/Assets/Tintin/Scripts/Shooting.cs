@@ -14,11 +14,9 @@ public class Shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        ShootingCode();
 
-        if (Input.GetMouseButtonDown(0) && !MouseOverUI())
-        {
-            Debug.Log("!MouseOverUI");
-        }
+      
     }
 
     void OnTriggerEnter2D(Collider2D token)
@@ -41,6 +39,7 @@ public class Shooting : MonoBehaviour
         {
             if (tshots != 0)
             {
+                tennisball.SetActive(true);
                 Instantiate(tennisball, shootpoint);
                 tshots--;
                 ballCounter.ballcount = tshots;
