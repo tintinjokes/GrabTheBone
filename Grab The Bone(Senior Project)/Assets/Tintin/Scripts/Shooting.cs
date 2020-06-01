@@ -15,8 +15,6 @@ public class Shooting : MonoBehaviour
     void Update()
     {
         ShootingCode();
-
-      
     }
 
     void OnTriggerEnter2D(Collider2D token)

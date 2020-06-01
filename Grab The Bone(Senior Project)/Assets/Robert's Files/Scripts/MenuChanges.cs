@@ -9,7 +9,6 @@ public class MenuChanges : MonoBehaviour
     public GameObject mainMenuCanvas;
     public GameObject levelCanvas;
     public GameObject optionsCanvas;
-    public GameObject creditsCanvas;
 
 
     private void Start()
@@ -17,7 +16,6 @@ public class MenuChanges : MonoBehaviour
         mainMenuCanvas.SetActive(true);
         levelCanvas.SetActive(false);
         optionsCanvas.SetActive(false);
-        creditsCanvas.SetActive(false);
     }
 
 
@@ -37,14 +35,6 @@ public class MenuChanges : MonoBehaviour
     }
 
 
-
-    public void PressCredits()
-    {
-        creditsCanvas.SetActive(true);
-        mainMenuCanvas.SetActive(false);
-    }
-
-
     public void PressBack()
     {
         if(levelCanvas)
@@ -57,12 +47,6 @@ public class MenuChanges : MonoBehaviour
         {
             mainMenuCanvas.SetActive(true);
             optionsCanvas.SetActive(false);
-        }
-
-        if(creditsCanvas)
-        {
-            mainMenuCanvas.SetActive(true);
-            creditsCanvas.SetActive(false);
         }
     }
 

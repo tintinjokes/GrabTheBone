@@ -10,11 +10,4 @@ public class TennisBall : MonoBehaviour
     {
         rb.velocity = transform.right * speed;
     }
-
- 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
