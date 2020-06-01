@@ -10,4 +10,9 @@ public class TennisBall : MonoBehaviour
     {
         rb.velocity = transform.right * speed;
     }
+
+    void Update()
+    {
+        
+    }
 }

@@ -6,7 +6,7 @@ using TMPro;
 public class ballCounter : MonoBehaviour
 {
     TextMeshProUGUI ballCounterText;
-    public static int ballcount;
+    public static int ballcount = 0;
 
     void Start()
     {
