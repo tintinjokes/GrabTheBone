@@ -685,14 +685,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1905287308, guid: c84b3241adef1714c80082802e2a8d24, type: 3}
-      propertyPath: uiShootLayer.m_Bits
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1905287308, guid: c84b3241adef1714c80082802e2a8d24, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3930131946411695617, guid: c84b3241adef1714c80082802e2a8d24,
         type: 3}
       propertyPath: m_Name

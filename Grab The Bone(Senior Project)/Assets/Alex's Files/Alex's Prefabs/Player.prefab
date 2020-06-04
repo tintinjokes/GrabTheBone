@@ -152,6 +152,9 @@ MonoBehaviour:
   jumpforce: 10
   jump: 1
   speedboost: 1.5
+  uiLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!95 &1465650345
 Animator:
   serializedVersion: 3
@@ -186,6 +189,10 @@ MonoBehaviour:
   tennisball: {fileID: 6797853272789780346, guid: 626eabe8c2c7ae048b7c86e3c228b946,
     type: 3}
   shootpoint: {fileID: 751043082845714913}
+  uiShootLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  tshots: 0
 --- !u!1 &5440025805510916200
 GameObject:
   m_ObjectHideFlags: 0
